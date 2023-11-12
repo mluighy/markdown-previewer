@@ -36,7 +36,7 @@ class MarkDown extends React.Component {
         <div className='container-fluid bg-secondary-subtle'>
             <button className='btn btn-success my-1 ms-5' onClick={this.handleDelete}>Delete text</button>
             <div className='row m-1'>
-              <div className='col-sm-6 vh-100'>
+              <div className='col-sm-6'>
                 <div className='row vh-100'>
                   <textarea id='editor' className='text-body-emphasis py-3 font-monospace' value={this.state.input} onChange={this.handleChange} />
                 </div> 
